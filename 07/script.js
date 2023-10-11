@@ -28,10 +28,18 @@ const patients = [
 ]
 
 let patientNames = []
+let patientAge = []
+let patientWeight = []
+let patientHeight = []
 /*for(let index = 0; index < patients.length; index++){
   patientNames[index] = patients[index].name
 }*/
 
 for(let patient of patients) {
   patientNames.push(patient.name)
+  patientAge.push(patient.age)
+  patientWeight.push(patient.weight)
+  patientHeight.push(patient.height)
 }
+
+alert(` O nome do paciente é ${patientNames}, a idade e ${patientAge}, o peso e ${patientWeight} e a altura e ${patientHeight}`)
