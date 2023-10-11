@@ -29,6 +29,18 @@ const patients = [
   },
 ]
 
+/*
+function IMC(weight, height) {
+  return weight / ((height / 100) ** 2).toFixed(2)
+}
+
+function printPatientIMC(patient){
+  return `
+    Paciente ${patient.name} possui o IMC de 
+    ${IMC(patient.weight, patient.height)}
+  `
+}*/
+
 function printPatientIMC(patient){
   return `
     Paciente ${patient.name} possui o IMC de 
